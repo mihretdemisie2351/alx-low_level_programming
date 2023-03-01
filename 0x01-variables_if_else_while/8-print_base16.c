@@ -1,10 +1,14 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-    char ch = 'a';
-    int i = 0;
-    
+char ch = 'a';
+int i = 0;
+
 	while (i < 16)
 	{
 		if (i < 10)
@@ -19,5 +23,5 @@ int main(void)
 		i++;
 	}
 	putchar('\n');
-    return 0;
+return (0);
 }
